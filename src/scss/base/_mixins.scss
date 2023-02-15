@@ -27,15 +27,15 @@
 }
 
 /* BUTTON MIXIN STYLES */
-@mixin button($color, $text) {
-    background-color: $color;
+@mixin button($bg-color, $text-color) {
+    background-color: $bg-color;
     font-size: v.$fs-large;
-    padding: 1.2rem 3rem;
+    padding: 1.2rem 2.5rem;
     font-weight: v.$fw-bold;
     display: block;
-    width: 100%;
+    width: 93%;
     text-align: center;
-    color: $text;
+    color: $text-color;
     text-decoration: none;
     border: none;
     border-radius: v.$border-radius-1;
@@ -51,7 +51,7 @@
 
     &:hover {
         cursor: pointer;
-        background-color: darken($color, 10);
+        background-color: darken($bg-color, 10);
     }
 
     @include tablet {
