@@ -19,8 +19,34 @@
         <nav class="navbar">
             <a href="#" class="navbar__link">Iniciar sesión</a>
             <a href="#" class="navbar__link">Crear cuenta</a>
-            <a href="#" class="navbar__link navbar__link--register">Registrar restraurante</a>
+            <a href="#" class="navbar__link navbar__link--register">Registrar restaurante</a>
         </nav>
     </header>
+
+    <section class="form container">
+        <div class="form__grid">
+            <div class="form__content">
+                <h2 class="form__heading">Pide comida de tu restaurante favorito</h2>
+
+                <form class="form__search">
+                    <div class="form__field">
+                        <label class="form__label" for="restaurant">Restaurante</label>
+                        <input type="text" id="restaurant" class="form__input" placeholder="Latina Restaurant">
+                    </div>
+
+                    <div class="form__field">
+                        <label class="form__label" for="plate">Platillo</label>
+                        <input type="text" id="plate" class="form__input" placeholder="Pizza, Ensalada, Hamburguesa">
+                    </div>
+
+                    <input type="submit" class="form__submit" value="Buscar">
+                </form>
+            </div>
+
+            <div class="form__image">
+                <img src="build/images/dibujo_repartidor.svg" alt="Delivery person image">
+            </div>
+        </div>
+    </section>
 </body>
 </html>

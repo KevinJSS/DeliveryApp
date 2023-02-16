@@ -33,22 +33,23 @@
     padding: 1.2rem 2.5rem;
     font-weight: v.$fw-bold;
     display: block;
-    width: 93%;
+    width: 100%;
     text-align: center;
     color: $text-color;
     text-decoration: none;
     border: none;
+    
     border-radius: v.$border-radius-1;
     -webkit-border-radius: v.$border-radius-1;
     -moz-border-radius: v.$border-radius-1;
     -ms-border-radius: v.$border-radius-1;
     -o-border-radius: v.$border-radius-1;
-    transition: v.$tranisition-1;
-    -webkit-transition: v.$tranisition-1;
-    -moz-transition: v.$tranisition-1;
-    -ms-transition: v.$tranisition-1;
-    -o-transition: v.$tranisition-1;
-
+    transition: v.$transition-1;
+    -webkit-transition: v.$transition-1;
+    -moz-transition: v.$transition-1;
+    -ms-transition: v.$transition-1;
+    -o-transition: v.$transition-1;
+    
     &:hover {
         cursor: pointer;
         background-color: darken($bg-color, 10);
