@@ -1,0 +1,23 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.restaurants {
+    margin-top: v.$spacing;
+    padding: v.$spacing 0;
+    background-color: v.$light-gray;
+
+    &__heading {
+        text-align: center;
+        color: v.$secondary;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        @include m.tablet {
+            @include m.grid(2, 3rem);
+        }
+    }
+}
