@@ -45,11 +45,11 @@ Before you begin, make sure you have met the following requirements:
 * <a href="https://gulpjs.com/docs/en/getting-started/quick-start/" target="_blank">Gulp-CLI</a> must be installed on your operating system.
 
 ## INSTALLATION
-To try <strong>Cafeteria_App</strong>, follow these steps:
+To try <strong>DeliveryApp</strong>, follow these steps:
 
 Linux and macOS:
 ```
-$ sudo git clone git@github.com:KevinJSS/Cafeteria_App.git
+$ sudo git clone https://github.com/KevinJSS/DeliveryApp.git
 
 $ npm install
 
@@ -58,7 +58,7 @@ $ gulp
 
 Windows:
 ```
-git clone git@github.com:KevinJSS/Cafeteria_App.git
+git clone https://github.com/KevinJSS/DeliveryApp.git
 
 npm install
 
